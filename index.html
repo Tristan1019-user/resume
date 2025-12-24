@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Tristan Stiller – Security Lab Portfolio</title>
+  <title>Tristan Stiller - Security Lab Portfolio</title>
 </head>
 <body>
   <h1>Tristan Stiller</h1>
@@ -27,12 +27,26 @@
   </p>
   <img src="diagrams/detection-response-flow.png" width="800">
 
+  <h3>CVE Detection and Vulnerability Correlation</h3>
+  <p>
+    This diagram outlines how vulnerability scan results are correlated with
+    system telemetry to identify exposed services, prioritize risk, and
+    generate actionable security events.
+  </p>
+  <p>
+    The focus is on separating continuous vulnerability assessment from
+    real-time detection, while still enabling automated alerting and response
+    when high-risk conditions are identified.
+  </p>
+  <img src="diagrams/CVE-Detection-Logic.png" width="800">
+
   <h3>Key Concepts Demonstrated</h3>
   <ul>
     <li>Network segmentation and default-deny design</li>
     <li>Centralized detection and correlation</li>
     <li>Automated response with safety guardrails</li>
     <li>Separation of posture management and live enforcement</li>
+    <li>Vulnerability-aware detection and prioritization</li>
   </ul>
 
   <p>
@@ -40,3 +54,4 @@
   </p>
 </body>
 </html>
+
